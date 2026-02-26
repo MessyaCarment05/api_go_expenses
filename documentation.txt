@@ -1,0 +1,11 @@
+// Query Table
+CREATE TABLE expenses(
+    expenses_id INT PRIMARY KEY AUTO INCREMENT,
+    nominal INT NOT NULL,
+    category VARCHAR(100) NOT NULL,
+    note TEXT,
+    date DATE NOT NULL
+)
+
+// Link
+http://localhost:8080/expenses
